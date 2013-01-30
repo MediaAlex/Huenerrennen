@@ -1,0 +1,196 @@
+﻿<Window
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+        mc:Ignorable="d" 
+        x:Class="Hühnerrennen.MainWindow"
+    
+        Title="MainWindow" Height="728" Width="1024" Loaded="Window_Loaded" xmlns:my="clr-namespace:Hühnerrennen">
+    <Grid Name="gr_huenerRennen" Height="686">
+        <Rectangle Fill="#FFF7F0ED" Height="68" Margin="-20,-6,-16,0" VerticalAlignment="Top">
+        	<Rectangle.Effect>
+        		<DropShadowEffect Opacity="0.31"/>
+        	</Rectangle.Effect>
+        </Rectangle>
+        <TextBlock Height="77" HorizontalAlignment="Left" Margin="301,0,0,0" Name="textBlock1" Text="Chicken run" VerticalAlignment="Top" FontSize="48" FontFamily="Century" RenderTransformOrigin="0.5,0.5" Foreground="#FF472110" TextTrimming="WordEllipsis" >
+        	<TextBlock.RenderTransform>
+        		<TransformGroup>
+        			<ScaleTransform/>
+        			<SkewTransform AngleX="6"/>
+        			<RotateTransform/>
+        			<TranslateTransform/>
+        		</TransformGroup>
+        	</TextBlock.RenderTransform>
+        </TextBlock>
+        <Grid Height="191" VerticalAlignment="Top" HorizontalAlignment="Left" Width="775" Margin="15,68,0,0" Name="gr_spieler">
+            <StackPanel Name="legende" Orientation="Horizontal" Height="39" Margin="10,8,0,0" VerticalAlignment="Top" HorizontalAlignment="Left" 
+                        Width="713" >
+                <TextBlock Text="K.I." Margin="40,0,0,0" FontSize="21.333" FontFamily="Century Gothic" FontWeight="Bold" Foreground="#FF472110"/>
+                <TextBlock Text="Spieler" Margin="55,0,0,0" FontSize="21.333" FontFamily="Century Gothic" FontWeight="Bold" Foreground="#FF472110" />
+                <TextBlock Text="Budget" Margin="85,0,0,0" FontSize="21.333" FontFamily="Century Gothic" FontWeight="Bold" Foreground="#FF472110" />
+                <TextBlock Text="Huhn" Margin="40,0,0,0" FontSize="21.333" FontFamily="Century Gothic" FontWeight="Bold" Foreground="#FF472110" />
+                <TextBlock Text="Einsatz" Margin="165,0,0,0" FontSize="21.333" FontFamily="Century Gothic" FontWeight="Bold" Foreground="#FF472110" />
+            </StackPanel>
+
+            <StackPanel Name="stPan_chB" HorizontalAlignment="Left" Margin="10,46,0,0" Width="112" Height="145" VerticalAlignment="Top">
+                <CheckBox x:Name="checkBox0" Content="" Height="15" Margin="45,15,0,0" IsChecked="False" HorizontalAlignment="Left" Width="16" Click="checkBox_Click"/>
+                <CheckBox x:Name="checkBox1" Content="" Height="15" Margin="45,22,0,0" IsChecked="False" HorizontalAlignment="Left" Width="15" Click="checkBox_Click"/>
+                <CheckBox x:Name="checkBox2" Content="" Height="15" Margin="45,20,0,0" IsChecked="False" HorizontalAlignment="Left" Width="15" Click="checkBox_Click"/>
+                <CheckBox x:Name="checkBox3" Content="" Height="15" Margin="45,22,0,0" IsChecked="False" HorizontalAlignment="Left" Width="15" Click="checkBox_Click"/>
+            </StackPanel>
+            
+            <StackPanel Name="stPan_spieler" HorizontalAlignment="Left" Width="135" Margin="125,46,0,0" Height="145" VerticalAlignment="Top">
+                <TextBox Text="" Width="120" Height="26" Margin="10,10,0,0" FontFamily="Century Gothic" FontSize="17.333" IsEnabled="True"/>
+                <TextBox Text="" Width="120" Height="26" Margin="10,10,0,0" FontFamily="Century Gothic" FontSize="17.333" IsEnabled="True"/>
+                <TextBox Text="" Width="120" Height="26" Margin="10,10,0,0" FontFamily="Century Gothic" FontSize="17.333" IsEnabled="True"/>
+                <TextBox Text="" Width="120" Height="26" Margin="10,10,0,0" FontFamily="Century Gothic" FontSize="17.333" IsEnabled="True"/>
+            </StackPanel>
+            
+            <StackPanel Name="stPan_budget" Margin="267,46,0,0" HorizontalAlignment="Left" Width="118" Height="145" VerticalAlignment="Top">
+                <TextBlock Width="70" Height="26" Margin="14,10,4,0" Text="" TextAlignment="Right" FontFamily="Century Gothic" FontSize="17.333"/>
+                <TextBlock Width="70" Height="26" Margin="10,10,0,0" Text="" TextAlignment="Right" FontFamily="Century Gothic" FontSize="17.333"/>
+                <TextBlock Width="70" Height="26" Margin="10,10,0,0" Text="" TextAlignment="Right" FontFamily="Century Gothic" FontSize="17.333" />
+                <TextBlock Width="70" Height="26" Margin="10,10,0,0" Text="" TextAlignment="Right" FontFamily="Century Gothic" FontSize="17.333" />
+            </StackPanel>
+            
+            <StackPanel Name="stPan_huehner" Margin="387,46,0,0" Height="145" VerticalAlignment="Top" HorizontalAlignment="Left" Width="192">
+                <ComboBox Name="cB_huener0" Margin="16,10,0,0" Height="26" VerticalAlignment="Top" HorizontalAlignment="Left" Width="158" FontFamily="Century Gothic" FontSize="16">
+                    <ComboBox.ItemTemplate>
+                        <DataTemplate>
+                            <TextBlock Text="{Binding huhnName}"/>
+                        </DataTemplate>
+                    </ComboBox.ItemTemplate>
+                </ComboBox>
+                <ComboBox Name="cB_huener1" Margin="16,10,0,0" Height="26" VerticalAlignment="Top" HorizontalAlignment="Left" Width="158" FontFamily="Century Gothic" FontSize="16">
+                    <ComboBox.ItemTemplate>
+                        <DataTemplate>
+                            <TextBlock Text="{Binding huhnName}"/>
+                        </DataTemplate>
+                    </ComboBox.ItemTemplate>
+                </ComboBox>
+                <ComboBox Name="cB_huener2" Margin="16,10,0,0" Height="26" VerticalAlignment="Top" HorizontalAlignment="Left" Width="158" FontFamily="Century Gothic" FontSize="16">
+                    <ComboBox.ItemTemplate>
+                        <DataTemplate>
+                            <TextBlock Text="{Binding huhnName}"/>
+                        </DataTemplate>
+                    </ComboBox.ItemTemplate>
+                </ComboBox>
+                <ComboBox Name="cB_huener3" Margin="16,10,0,0" Height="26" VerticalAlignment="Top" HorizontalAlignment="Left" Width="158" FontFamily="Century Gothic" FontSize="16">
+                    <ComboBox.ItemTemplate>
+                        <DataTemplate>
+                            <TextBlock Text="{Binding huhnName}"/>
+                        </DataTemplate>
+                    </ComboBox.ItemTemplate>
+                </ComboBox>
+            </StackPanel>
+            
+            <StackPanel Name="stPan_einsatz" Margin="584,46,0,0" HorizontalAlignment="Left" Width="137" Height="145" VerticalAlignment="Top">
+                <TextBox Name="tB_einsatz0" Width="70" Height="26" Margin="10,10,0,0" TextAlignment="Right" FontFamily="Century Gothic" FontSize="17.333" />
+                <TextBox Name="tB_einsatz1" Width="70" Height="26" Margin="10,10,0,0" TextAlignment="Right" FontFamily="Century Gothic" FontSize="17.333" />
+                <TextBox Name="tB_einsatz2" Width="70" Height="26" Margin="10,10,0,0" TextAlignment="Right" FontFamily="Century Gothic" FontSize="17.333" />
+                <TextBox Name="tB_einsatz3" Width="70" Height="26" Margin="10,10,0,0" TextAlignment="Right" FontFamily="Century Gothic" FontSize="17.333" />
+            </StackPanel>
+            <Grid Height="159" Name="grid2" Width="200" Margin="780,32,-205,0" Canvas.Top="37" Visibility="Collapsed">
+                <Grid.Background>
+                    <ImageBrush ImageSource="/Hühnerrennen;component/Images/Siegerkranz.jpg" />
+                </Grid.Background>
+                <Canvas Width="200" Height="159">
+                    <Image Name="img_sieger2" Height="100" Width="114" Margin="46,31,0,0" Canvas.Left="0" Canvas.Top="0" />
+                </Canvas>
+            </Grid>
+        </Grid>
+
+        <Canvas Height="411" VerticalAlignment="Top" HorizontalAlignment="Left" Width="775" Margin="15,262,0,0">
+            <StackPanel>
+                <StackPanel Background="#FFF2F21F" Visibility="Visible" Width="765" VerticalAlignment="Center"
+                                    HorizontalAlignment="Center">
+                    <Canvas Height="102">
+                        <TextBlock Name="tBl_huhn1" FontSize="48" Width="200" Canvas.Left="96" Canvas.Top="17.516" Foreground="#FF1D1D1D" RenderTransformOrigin="0.5,0.5" FontFamily="Candara" Opacity="0.4">
+                        	<TextBlock.RenderTransform>
+                        		<TransformGroup>
+                        			<ScaleTransform/>
+                        			<SkewTransform AngleX="-10" AngleY="1"/>
+                        			<RotateTransform/>
+                        			<TranslateTransform/>
+                        		</TransformGroup>
+                        	</TextBlock.RenderTransform>
+                        </TextBlock>
+                        <Image Canvas.Left="0" Canvas.Top="25" Height="48" Name="img_huhn1" Stretch="Uniform" Width="51" 
+                                           Source="/Hühnerrennen;component/Images/chicken_01.png" />
+                    </Canvas>
+                </StackPanel>
+            <StackPanel Background="#FF3883E7" Visibility="Visible" Width="765" VerticalAlignment="Center"
+                                    HorizontalAlignment="Center">
+                <Canvas Height="102">
+                        <TextBlock Name="tBl_huhn2" FontSize="48" Width="200" Canvas.Left="97" Canvas.Top="17.516" FontFamily="Candara" Opacity="0.4">
+                            <TextBlock.RenderTransform>
+                        		<TransformGroup>
+                        			<ScaleTransform/>
+                        			<SkewTransform AngleX="-10" AngleY="1"/>
+                        			<RotateTransform/>
+                        			<TranslateTransform/>
+                        		</TransformGroup>
+                        	</TextBlock.RenderTransform>
+                        </TextBlock>
+                    <Image Canvas.Left="0" Canvas.Top="25" Height="48" Name="img_huhn2" Stretch="Uniform" Width="51" 
+                           Source="/Hühnerrennen;component/Images/chicken_02.png" />
+                </Canvas>
+            </StackPanel>
+            <StackPanel Background="#FF56F238" Visibility="Visible" Width="765" VerticalAlignment="Center"
+                                    HorizontalAlignment="Center">
+                <Canvas Height="102">
+                        <TextBlock Name="tBl_huhn3" Width="200" FontSize="48" Canvas.Left="97" Canvas.Top="17.516" FontFamily="Candara" Opacity="0.4">
+                            <TextBlock.RenderTransform>
+                        		<TransformGroup>
+                        			<ScaleTransform/>
+                        			<SkewTransform AngleX="-10" AngleY="1"/>
+                        			<RotateTransform/>
+                        			<TranslateTransform/>
+                        		</TransformGroup>
+                        	</TextBlock.RenderTransform>
+                        </TextBlock>
+                    <Image Canvas.Left="0" Canvas.Top="25" Height="48" Name="img_huhn3" Stretch="Uniform" Width="51" 
+                                           Source="/Hühnerrennen;component/Images/chicken_03.png" />
+            </Canvas>
+            </StackPanel>
+            <StackPanel Background="#FFEB291B" Visibility="Visible" Width="765" VerticalAlignment="Center"
+                                    HorizontalAlignment="Center">
+                <Canvas Height="102">
+                        <TextBlock Name="tBl_huhn4" FontSize="48" Width="200" Canvas.Left="96" Canvas.Top="17.516" FontFamily="Candara" Opacity="0.4">
+                            <TextBlock.RenderTransform>
+                        		<TransformGroup>
+                        			<ScaleTransform/>
+                        			<SkewTransform AngleX="-10" AngleY="1"/>
+                        			<RotateTransform/>
+                        			<TranslateTransform/>
+                        		</TransformGroup>
+                        	</TextBlock.RenderTransform>
+                        </TextBlock>
+                    <Image Canvas.Left="0" Canvas.Top="25" Height="48" Name="img_huhn4" Stretch="Uniform" Width="51" 
+                                           Source="/Hühnerrennen;component/Images/chicken_04.png" />
+                </Canvas>
+            </StackPanel>
+            </StackPanel>
+            <Rectangle Canvas.Left="57" Canvas.Top="0" Height="410" x:Name="startLinie" Stroke="White" Width="5" Fill="#E6AFB6AF" VerticalAlignment="Top" HorizontalAlignment="Left" />
+            <Rectangle Height="407" x:Name="zielLinie" Stroke="White" Width="5" Fill="White" VerticalAlignment="Top" HorizontalAlignment="Left"
+                       Canvas.Left="754"/>
+        </Canvas>
+        
+        <Button Content="Start" Height="31" HorizontalAlignment="Left" Margin="902,262,0,0" Name="but_start" VerticalAlignment="Top" Width="75" 
+                IsEnabled="True" Click="but_start_Click" />
+        <Button Content="Neues Rennen" Height="31" HorizontalAlignment="Left" Margin="795,262,0,0" Name="but_reset" VerticalAlignment="Top" Width="101" 
+                IsEnabled="False" Click="but_reset_Click" />
+        <Grid Height="159" Name="grid1" Width="200" Margin="790,70,0,0" Canvas.Top="37">
+            <Grid.Background>
+                <ImageBrush ImageSource="/Hühnerrennen;component/Images/Siegerkranz.jpg" />
+            </Grid.Background>
+            <Canvas Width="200" Height="159">
+                <Image Name="img_sieger" Height="100" Width="114" Margin="46,31,0,0" Canvas.Left="0" Canvas.Top="0" />
+            </Canvas>
+        </Grid>
+        <TextBlock Height="203" HorizontalAlignment="Left" Margin="795,466,0,0" Name="tBl_siegerhuhn" VerticalAlignment="Top" Width="200" 
+                   FontSize="32" TextAlignment="Center" FontFamily="Century Gothic" FontWeight="Bold" TextWrapping="Wrap" 
+                   Foreground="#FF472110" />
+    </Grid>
+</Window>

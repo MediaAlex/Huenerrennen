@@ -1,0 +1,56 @@
+F:\VS\Hühnerrennen\Hühnerrennen\bin\Debug\Hühnerrennen.exe
+F:\VS\Hühnerrennen\Hühnerrennen\bin\Debug\Hühnerrennen.pdb
+F:\VS\Hühnerrennen\Hühnerrennen\obj\x86\Debug\ResolveAssemblyReference.cache
+F:\VS\Hühnerrennen\Hühnerrennen\obj\x86\Debug\MainWindow.baml
+F:\VS\Hühnerrennen\Hühnerrennen\obj\x86\Debug\MainWindow.g.cs
+F:\VS\Hühnerrennen\Hühnerrennen\obj\x86\Debug\App.g.cs
+F:\VS\Hühnerrennen\Hühnerrennen\obj\x86\Debug\Hühnerrennen_MarkupCompile.cache
+F:\VS\Hühnerrennen\Hühnerrennen\obj\x86\Debug\Hühnerrennen.g.resources
+F:\VS\Hühnerrennen\Hühnerrennen\obj\x86\Debug\Hühnerrennen.Properties.Resources.resources
+F:\VS\Hühnerrennen\Hühnerrennen\obj\x86\Debug\GenerateResource.read.1.tlog
+F:\VS\Hühnerrennen\Hühnerrennen\obj\x86\Debug\GenerateResource.write.1.tlog
+F:\VS\Hühnerrennen\Hühnerrennen\obj\x86\Debug\Hühnerrennen.exe
+F:\VS\Hühnerrennen\Hühnerrennen\obj\x86\Debug\Hühnerrennen.pdb
+E:\VS\Hühnerrennen\Hühnerrennen\obj\x86\Debug\Hühnerrennen.exe
+E:\VS\Hühnerrennen\Hühnerrennen\obj\x86\Debug\Hühnerrennen.pdb
+E:\VS\Hühnerrennen\Hühnerrennen\bin\Debug\Hühnerrennen.exe
+E:\VS\Hühnerrennen\Hühnerrennen\bin\Debug\Hühnerrennen.pdb
+E:\VS\Hühnerrennen\Hühnerrennen\obj\x86\Debug\Hühnerrennen.csprojResolveAssemblyReference.cache
+E:\VS\Hühnerrennen\Hühnerrennen\obj\x86\Debug\MainWindow.baml
+E:\VS\Hühnerrennen\Hühnerrennen\obj\x86\Debug\MainWindow.g.cs
+E:\VS\Hühnerrennen\Hühnerrennen\obj\x86\Debug\App.g.cs
+E:\VS\Hühnerrennen\Hühnerrennen\obj\x86\Debug\Hühnerrennen_MarkupCompile.cache
+E:\VS\Hühnerrennen\Hühnerrennen\obj\x86\Debug\Hühnerrennen.g.resources
+E:\VS\Hühnerrennen\Hühnerrennen\obj\x86\Debug\Hühnerrennen.Properties.Resources.resources
+E:\VS\Hühnerrennen\Hühnerrennen\obj\x86\Debug\Hühnerrennen.csproj.GenerateResource.Cache
+F:\VS\Hühnerrennen\Hühnerrennen\obj\x86\Debug\Hünerwahl.baml
+F:\VS\Hühnerrennen\Hühnerrennen\obj\x86\Debug\Hünerwahl.g.cs
+F:\VS\Hühnerrennen\Hühnerrennen\obj\x86\Debug\Archiv.baml
+F:\VS\Hühnerrennen\Hühnerrennen\obj\x86\Debug\Archiv.g.cs
+F:\VS\Hühnerrennen\Hühnerrennen\obj\x86\Debug\Hühnerrennen_MarkupCompile.lref
+F:\VS\Hühnerrennen\Hühnerrennen\obj\x86\Debug\Hühnerrennen_Content.g.cs
+F:\VS\Hühnerrennen\Hühnerrennen\bin\Debug\Chicken.wav
+F:\VS\Hühnerrennen\Hühnerrennen\bin\Debug\Sounds\Chickens 01.wav
+F:\VS\Hühnerrennen\Hühnerrennen\bin\Debug\Sounds\Chickens 02.wav
+F:\VS\Hühnerrennen\Hühnerrennen\bin\Debug\Sounds\Chickens 03.wav
+F:\VS\WPF\Hühnerrennen\Hühnerrennen\obj\x86\Debug\Hühnerrennen.exe
+F:\VS\WPF\Hühnerrennen\Hühnerrennen\obj\x86\Debug\Hühnerrennen.pdb
+F:\VS\WPF\Hühnerrennen\Hühnerrennen\bin\Debug\Chicken.wav
+F:\VS\WPF\Hühnerrennen\Hühnerrennen\bin\Debug\Sounds\Chickens 01.wav
+F:\VS\WPF\Hühnerrennen\Hühnerrennen\bin\Debug\Sounds\Chickens 02.wav
+F:\VS\WPF\Hühnerrennen\Hühnerrennen\bin\Debug\Sounds\Chickens 03.wav
+F:\VS\WPF\Hühnerrennen\Hühnerrennen\bin\Debug\Hühnerrennen.exe
+F:\VS\WPF\Hühnerrennen\Hühnerrennen\bin\Debug\Hühnerrennen.pdb
+F:\VS\WPF\Hühnerrennen\Hühnerrennen\obj\x86\Debug\ResolveAssemblyReference.cache
+F:\VS\WPF\Hühnerrennen\Hühnerrennen\obj\x86\Debug\Archiv.baml
+F:\VS\WPF\Hühnerrennen\Hühnerrennen\obj\x86\Debug\Archiv.g.cs
+F:\VS\WPF\Hühnerrennen\Hühnerrennen\obj\x86\Debug\MainWindow.g.cs
+F:\VS\WPF\Hühnerrennen\Hühnerrennen\obj\x86\Debug\App.g.cs
+F:\VS\WPF\Hühnerrennen\Hühnerrennen\obj\x86\Debug\Hühnerrennen_Content.g.cs
+F:\VS\WPF\Hühnerrennen\Hühnerrennen\obj\x86\Debug\Hühnerrennen_MarkupCompile.cache
+F:\VS\WPF\Hühnerrennen\Hühnerrennen\obj\x86\Debug\Hühnerrennen_MarkupCompile.lref
+F:\VS\WPF\Hühnerrennen\Hühnerrennen\obj\x86\Debug\MainWindow.baml
+F:\VS\WPF\Hühnerrennen\Hühnerrennen\obj\x86\Debug\Hühnerrennen.g.resources
+F:\VS\WPF\Hühnerrennen\Hühnerrennen\obj\x86\Debug\Hühnerrennen.Properties.Resources.resources
+F:\VS\WPF\Hühnerrennen\Hühnerrennen\obj\x86\Debug\GenerateResource.read.1.tlog
+F:\VS\WPF\Hühnerrennen\Hühnerrennen\obj\x86\Debug\GenerateResource.write.1.tlog

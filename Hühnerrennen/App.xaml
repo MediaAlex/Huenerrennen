@@ -1,0 +1,41 @@
+﻿<Application x:Class="Hühnerrennen.App"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             Startup="Application_Startup"
+             StartupUri="MainWindow.xaml">
+    <Application.Resources>
+         
+    </Application.Resources>
+</Application>
+
+<!--<Canvas Height="411" VerticalAlignment="Top" HorizontalAlignment="Left" Width="775" Margin="227,278,0,0">
+    <StackPanel Width="775" HorizontalAlignment="Center" Name="sP_rennbahn" Height="408" VerticalAlignment="Center">
+        <StackPanel Name="rennbahn1" Height="102" Background="#FF3883E7" Visibility="Visible" Width="775" VerticalAlignment="Center"
+                            HorizontalAlignment="Center">
+            <TextBlock Text="{Binding spielerName, Mode=TwoWay}"/>
+        </StackPanel>
+        <StackPanel Name="rennbahn2" Height="102" Background="#FF37D12B" Visibility="Visible" Width="775" VerticalAlignment="Center"
+                            HorizontalAlignment="Center">
+            <TextBlock Text="{Binding spielerName, Mode=TwoWay}"/>
+        </StackPanel>
+        <StackPanel Name="rennbahn3" Height="102" Background="#FFECF840" Visibility="Visible" Width="775" VerticalAlignment="Center"
+                            HorizontalAlignment="Center">
+            <TextBlock Text="{Binding spielerName, Mode=TwoWay}"/>
+        </StackPanel>
+        <StackPanel Name="rennbahn4" Height="102" Background="#FFE75338" Visibility="Visible" Width="775" VerticalAlignment="Center"
+                            HorizontalAlignment="Center">
+            <TextBlock Text="{Binding spielerName, Mode=TwoWay}"/>
+        </StackPanel>
+    </StackPanel>
+    <Rectangle Canvas.Left="57" Canvas.Top="0" Height="410" x:Name="startLinie" Stroke="White" Width="5" Fill="#E6AFB6AF" VerticalAlignment="Top" HorizontalAlignment="Left" />
+    <Image Canvas.Left="4" Canvas.Top="25" Height="48" Name="img_spieler1" Stretch="Uniform" Width="51" 
+                                   Source="/Hühnerrennen;component/Images/468px-Chicken_clipart_01.svg.png" />
+    <Image Canvas.Left="4" Canvas.Top="127" Height="48" Name="img_spieler2" Stretch="Uniform" Width="51" 
+                                   Source="/Hühnerrennen;component/Images/468px-Chicken_clipart_01.svg.png" />
+    <Image Canvas.Left="4" Canvas.Top="225" Height="48" Name="img_spieler3" Stretch="Uniform" Width="51" 
+                                   Source="/Hühnerrennen;component/Images/468px-Chicken_clipart_01.svg.png" Visibility="Visible"/>
+    <Image Canvas.Left="4" Canvas.Top="333" Height="48" Name="img_spieler4" Stretch="Uniform" Width="51" 
+                                   Source="/Hühnerrennen;component/Images/468px-Chicken_clipart_01.svg.png" Visibility="Visible" />
+    <Rectangle Height="407" x:Name="zielLinie" Stroke="White" Width="5" Fill="White" VerticalAlignment="Top" HorizontalAlignment="Left"
+                       Canvas.Left="770"/>
+</Canvas>-->
