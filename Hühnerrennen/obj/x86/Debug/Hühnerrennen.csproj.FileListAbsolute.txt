@@ -54,3 +54,5 @@ F:\VS\WPF\Hühnerrennen\Hühnerrennen\obj\x86\Debug\Hühnerrennen.g.resources
 F:\VS\WPF\Hühnerrennen\Hühnerrennen\obj\x86\Debug\Hühnerrennen.Properties.Resources.resources
 F:\VS\WPF\Hühnerrennen\Hühnerrennen\obj\x86\Debug\GenerateResource.read.1.tlog
 F:\VS\WPF\Hühnerrennen\Hühnerrennen\obj\x86\Debug\GenerateResource.write.1.tlog
+F:\GitHub\Huenerrennen\Hühnerrennen\obj\x86\Debug\Hühnerrennen.exe
+F:\GitHub\Huenerrennen\Hühnerrennen\obj\x86\Debug\Hühnerrennen.pdb

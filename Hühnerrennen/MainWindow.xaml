@@ -13,7 +13,7 @@
         		<DropShadowEffect Opacity="0.31"/>
         	</Rectangle.Effect>
         </Rectangle>
-        <TextBlock Height="77" HorizontalAlignment="Left" Margin="301,0,0,0" Name="textBlock1" Text="Chicken run" VerticalAlignment="Top" FontSize="48" FontFamily="Century" RenderTransformOrigin="0.5,0.5" Foreground="#FF472110" TextTrimming="WordEllipsis" >
+        <TextBlock Height="70" HorizontalAlignment="Left" Margin="301,0,0,0" Name="textBlock1" Text="Chicken run" VerticalAlignment="Top" FontSize="48" FontFamily="Century" RenderTransformOrigin="0.5,0.5" Foreground="#FF472110" TextTrimming="WordEllipsis" >
         	<TextBlock.RenderTransform>
         		<TransformGroup>
         			<ScaleTransform/>
